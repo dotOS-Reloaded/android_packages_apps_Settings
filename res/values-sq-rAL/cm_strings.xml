@@ -39,7 +39,7 @@
   <string name="root_appops_title">Menaxho akseset Root</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Versioni i LineageOS</string>
-  <string name="mod_version_default">I panjohur</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Modeli i pajisjes</string>
   <!-- About phone screen, Device name -->
@@ -335,4 +335,6 @@
   <!-- SAR information -->
   <!-- IC Codes -->
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operatorët e rrjetit</string>
 </resources>

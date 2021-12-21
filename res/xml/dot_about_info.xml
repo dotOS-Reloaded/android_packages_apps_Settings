@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 Krexus
+     Copyright (C) 2017 dotOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:key="category_dot_about_info"
+        android:title="@string/dot_about_info">
+
+    <Preference
+        android:summary="@string/dot_about_info_summary" />
+
+	<PreferenceScreen
+        android:title="@string/dot_website_title"
+        android:summary="@string/dot_website_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://dotos.github.io/" />
+    </PreferenceScreen>	
+		
+	<PreferenceScreen
+        android:title="@string/dot_Gplus_title"
+        android:summary="@string/dot_Gplus_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://plus.google.com/u/0/communities/101137692192340076065" />
+    </PreferenceScreen>	
+		
+    <PreferenceScreen
+        android:title="@string/dot_tg_title"
+        android:summary="@string/dot_tg_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/dotos" />
+    </PreferenceScreen>
+    </PreferenceCategory>
+
+    <!-- Developers -->
+    <PreferenceCategory
+        android:key="category_dot_about_devs"
+        android:title="@string/dot_about_devs">
+
+    <PreferenceScreen
+        android:title="@string/dot_about_dev1_title"
+        android:summary="@string/dot_about_dev1_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/mohancm100" />
+    </PreferenceScreen>
+	    
+    <PreferenceScreen
+        android:title="@string/dot_about_dev2_title"
+        android:summary="@string/dot_about_dev2_summary" >
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/ganesh_i4u" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="@string/dot_about_mention1_title"
+        android:summary="@string/dot_about_mention1_summary" >
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/Reapergod35" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/dot_about_mention2_title"
+        android:summary="@string/dot_about_mention2_summary" >
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/kubersharma" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/dot_about_mention3_title"
+        android:summary="@string/dot_about_mention3_summary" >
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/hariambadii" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/dot_about_mention4_title"
+        android:summary="@string/dot_about_mention4_summary" >
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/iacobionut" />
+    </PreferenceScreen>
+    </PreferenceCategory>
+
+    <!-- Contributors -->
+    <PreferenceCategory
+        android:key="category_dot_about_contributors"
+        android:title="@string/dot_about_contributors">
+
+	    <PreferenceScreen
+		android:title="@string/dot_about_cont1"
+		android:summary="@string/dot_about_cont1_summary">
+	     <intent
+		android:action="android.intent.action.VIEW"
+		android:data="https://t.me/B_auuuuu" />
+	    </PreferenceScreen>
+	    
+    </PreferenceCategory>
+
+    <!-- Maintainers -->
+    <PreferenceCategory
+        android:key="category_dot_about_maintainers"
+        android:title="@string/dot_about_maintainers">
+
+    		<PreferenceScreen
+        		android:title="@string/dot_about_dev1"
+        		android:summary="@string/dot_about_dev1_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/red_king1" />
+    		</PreferenceScreen>
+			
+			<PreferenceScreen
+        		android:title="@string/dot_about_dev2"
+        		android:summary="@string/dot_about_dev2_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/iacobionut" />
+    		</PreferenceScreen>
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev3"
+        		android:summary="@string/dot_about_dev3_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/agrd1129" />
+    		</PreferenceScreen>
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev4"
+        		android:summary="@string/dot_about_dev4_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/psycho_mods" />
+    		</PreferenceScreen>
+      
+	    	<PreferenceScreen      		
+          	android:title="@string/dot_about_dev5"
+          	android:summary="@string/dot_about_dev5_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/ZJRDroid" />             
+        	</PreferenceScreen>
+      
+      		<PreferenceScreen
+        		android:title="@string/dot_about_dev6"
+        		android:summary="@string/dot_about_dev6_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/izaqKull" />
+    		</PreferenceScreen>	
+
+                <PreferenceScreen
+                        android:title="@string/dot_about_dev7"
+                        android:summary="@string/dot_about_dev7_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/ded_boi" />
+                </PreferenceScreen>
+
+	<PreferenceScreen
+        		android:title="@string/dot_about_dev8"
+        		android:summary="@string/dot_about_dev8_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/anshuman852" />
+    		</PreferenceScreen>
+
+        <PreferenceScreen
+        		android:title="@string/dot_about_dev9"
+        		android:summary="@string/dot_about_dev9_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/irvin16" />
+    		</PreferenceScreen>
+		
+		<PreferenceScreen
+                        android:title="@string/dot_about_dev10"
+                        android:summary="@string/dot_about_dev10_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/ATechnoHazard" />
+                </PreferenceScreen>
+
+                <PreferenceScreen
+                         android:title="@string/dot_about_dev11"
+                         android:summary="@string/dot_about_dev11_device">
+                <intent
+                         android:action="android.intent.action.VIEW"
+                         android:data="https://t.me/Nikesh001" />
+                </PreferenceScreen>
+
+                <PreferenceScreen
+                        android:title="@string/dot_about_dev12"
+                        android:summary="@string/dot_about_dev12_device">
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/Nikesh001" />
+                </PreferenceScreen>
+
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev13"
+        		android:summary="@string/dot_about_dev13_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/milki11" />
+    		</PreferenceScreen>
+
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev15"
+        		android:summary="@string/dot_about_dev15_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/B_auuuuu" />
+    		</PreferenceScreen>
+
+                <PreferenceScreen
+                        android:title="@string/dot_about_dev15"
+                        android:summary="@string/dot_about_dev16_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/B_auuuuu" />
+                </PreferenceScreen>
+		
+		<PreferenceScreen
+        		android:title="@string/dot_about_dev17"
+        		android:summary="@string/dot_about_dev17_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/leodiram" />
+    		</PreferenceScreen>
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev18"
+        		android:summary="@string/dot_about_dev18_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/spector0O7" />
+    		</PreferenceScreen>
+
+                <PreferenceScreen
+                        android:title="@string/dot_about_dev19"
+                        android:summary="@string/dot_about_dev19_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/miju12" />
+                </PreferenceScreen>
+	    
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev20"
+                        android:summary="@string/dot_about_dev20_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/bala03" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev21"
+                        android:summary="@string/dot_about_dev21_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/thakurfazer55" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev22"
+                        android:summary="@string/dot_about_dev22_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/XTutorials" />
+                </PreferenceScreen>
+            <PreferenceScreen
+                        android:title="@string/dot_about_dev23"
+                        android:summary="@string/dot_about_dev23_device" >
+               <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/Mcube3" />
+               </PreferenceScreen>
+	     <PreferenceScreen
+                        android:title="@string/dot_about_dev24"
+                        android:summary="@string/dot_about_dev24_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/kelvin97" />
+                </PreferenceScreen>
+	     <PreferenceScreen
+                        android:title="@string/dot_about_dev25"
+                        android:summary="@string/dot_about_dev25_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/nsytechno" />
+                </PreferenceScreen>
+             <PreferenceScreen
+                        android:title="@string/dot_about_dev26"
+                        android:summary="@string/dot_about_dev26_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/keerten" />
+                </PreferenceScreen>   
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev27"
+                        android:summary="@string/dot_about_dev27_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/MasterKhatri" />
+                </PreferenceScreen>   
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev28"
+                        android:summary="@string/dot_about_dev28_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/rohantaneja" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev29"
+                        android:summary="@string/dot_about_dev29_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/iamsidofficial" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev30"
+                        android:summary="@string/dot_about_dev30_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/Sakil_Mondal" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev32"
+                        android:summary="@string/dot_about_dev32_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/Mysteryagr" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev33"
+                        android:summary="@string/dot_about_dev33_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/venky_holmes" />
+                </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev34"
+                        android:summary="@string/dot_about_dev34_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/mittlaprima" />
+                </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

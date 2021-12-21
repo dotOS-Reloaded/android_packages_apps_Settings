@@ -32,7 +32,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS අනුවාදය</string>
-  <string name="mod_version_default">නොදනී</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
   <!-- About phone screen, LineageOS Api Level -->
@@ -230,4 +230,5 @@
   <string name="maximum_head_level">හිස: %1$s W/kg</string>
   <string name="maximum_body_level">සිරුර: %1$s W/kg</string>
   <!-- IC Codes -->
+  <!-- Label for settings shortcut: carrier selection -->
 </resources>

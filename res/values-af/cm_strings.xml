@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Kyk na en beheer die root reëls</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS weergawe</string>
-  <string name="mod_version_default">Onbekend</string>
+  <string name="mod_version_default">v1.1</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Toestel tipe</string>
   <!-- About phone screen, Device name -->
@@ -254,7 +254,9 @@
   <!-- lock screen visualizer -->
   <string name="lockscreen_visualizer_title">Vertoon musiek visualiseerder</string>
   <!-- Lock screen cover art -->
+  <string name="lockscreen_media_art_title">Wys media kuns</string>
   <!-- Double tap to sleep on keyguard -->
+  <string name="double_tap_sleep_anywhere_title">Dubbel tik om orals te slaap</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Herstel patroon</string>
   <string name="lockpattern_settings_reset_summary">Tik primêre e-pos rekening en gepaardgaande wagwoord om patroon slot te herstel</string>
@@ -429,4 +431,6 @@
   <!-- IC Codes -->
   <string name="ic_code_model">Model: %1$s</string>
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Netwerk operateurs</string>
 </resources>

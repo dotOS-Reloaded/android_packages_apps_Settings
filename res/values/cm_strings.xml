@@ -44,16 +44,12 @@
 
     <!-- About phone screen, LineageOS version -->
     <string name="mod_version">LineageOS version</string>
-    <string name="mod_version_default">Unknown</string>
+    <string name="mod_version_default" translatable="false">v1.1</string>
 
     <!-- About phone screen, Device model -->
     <string name="device_model">Device model</string>
     <!-- About phone screen, Device name -->
     <string name="device_name">Device name</string>
-
-    <!-- About phone screen, LineageOS Api Level -->
-    <string name="mod_api_level">LineageOS API level</string>
-    <string name="mod_api_level_default">Unknown</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -226,6 +222,7 @@
     <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">No permissions available to block</string>
 
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Show user apps</string>
@@ -272,22 +269,9 @@
     <!-- Memory -->
     <string name="memory_startup_apps_title">Apps started on boot</string>
 
-    <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery, bootloader or performing a soft restart</string>
-
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
-
-    <!-- lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Display music visualizer</string>
-
-    <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-
-    <!-- Double tap to sleep on keyguard -->
-    <string name="double_tap_sleep_anywhere_title">Double tap to sleep anywhere</string>
 
     <!-- Protected apps lockpattern reset button -->
     <string name="lockpattern_reset_button">Reset pattern</string>
@@ -307,9 +291,6 @@
     <string name="pa_login_checking_password">Checking account\u2026</string>
     <string name="pa_login_incorrect_login">Login was incorrect</string>
     <string name="pa_pattern_or_fingerprint_header">Must draw pattern or use fingerprint to unlock</string>
-
-    <!-- title for lock screen weather preference -->
-    <string name="lockscreen_weather_enabled_title">Show weather</string>
 
     <!-- title for lock screen blur preference -->
     <string name="lockscreen_blur_enabled_title">Blur background</string>
@@ -427,10 +408,6 @@
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
 
-    <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
-
     <!-- Heads-up -->
     <string name="heads_up_notifications_enabled_title">Heads-up</string>
     <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
@@ -502,4 +479,12 @@
     <!-- IC Codes -->
     <string name="ic_code_model">Model: %1$s</string>
     <string name="ic_code_full">IC: %1$s</string>
+
+    <!-- Label for settings shortcut: carrier selection -->
+    <string name="shortcut_carrier_title">Network operators</string>
+
+    <!-- Burn in protection -->
+    <string name="burnin_protection_title">Display burn-in protection</string>
+    <string name="burnin_protection_summary">Periodically move items that are permanently shown on screen to avoid excessive screen wear in that area</string>
+
 </resources>

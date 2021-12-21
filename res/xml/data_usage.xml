@@ -31,6 +31,12 @@
             android:selectable="false"
             settings:allowDividerBelow="true" />
 
+	<PreferenceScreen
+        android:fragment="com.android.settings.fragments.NetworkTrafficSettings"
+        android:key="nettraffic_settings"
+        android:title="@string/nettraffic_settings_title"
+        android:summary="@string/nettraffic_settings_summary" />
+
         <com.android.settings.datausage.DataSaverPreference
             android:key="restrict_background"
             android:title="@string/data_saver_title"

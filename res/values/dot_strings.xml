@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2017 dotOS Project
+** Copyright 2016-2017 Paranoid Android
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About dotOS -->
+    <string name="dot_about_title">About dotOS</string>
+    <string name="dot_about_info">ROM</string>
+ 	<string name="dot_website_title">Our Website</string>
+ 	<string name="dot_website_summary">Explore dotOS Website</string>
+ 	<string name="dot_Gplus_title">Join Google+ Community</string>
+ 	<string name="dot_Gplus_summary">Have a Look at Google+ Community : Request new features,Bug Fixes,latest releases and Lots more...</string>
+    <string name="dot_tg_title">Join telegram Community</string>
+    <string name="dot_tg_summary">Follow our telegram community for support and updates!</string>
+    <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Lineage OS - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
+    <string name="dot_about_devs">dotOS Team</string>
+	<string name="dot_about_dev1_title">MohanCM</string>
+    <string name="dot_about_dev1_summary">Owner/Founder</string>
+    <string name="dot_about_dev2_title">Ganesh Varma</string>
+    <string name="dot_about_dev2_summary">Core Developer/Contributor</string>
+    <string name="dot_about_mentions">dotOS Team</string>
+  	<string name="dot_about_mention1_title">Sayan Biswas</string>
+    <string name="dot_about_mention1_summary">UI Developer/Contributor</string>
+    <string name="dot_about_mention2_title">Kuber Sharma</string>
+    <string name="dot_about_mention2_summary">Developer/Contributor</string>
+    <string name="dot_about_mention3_title">Hari Ambadi</string>
+    <string name="dot_about_mention3_summary">Core GFX/Visual Designer</string>
+    <string name="dot_about_mention4_title">Iacob Ionut</string>
+    <string name="dot_about_mention4_summary">UI Developer/Contributor</string>
+
+    <!-- Contributors -->
+    <string name="dot_about_contributors">Our Contributors</string>
+    <string name="dot_about_cont1">Dr. Atul Bansode</string>
+    <string name="dot_about_cont1_summary">Infrastructure/Contributor</string>
+
+    <!-- device maintainers -->
+    <string name="dot_about_maintainers">Device Maintainers</string>
+    <string name="dot_about_dev1">Abhay Ruparel</string>
+    <string name="dot_about_dev1_device">Lenovo P2 (kuntao)</string>
+    <string name="dot_about_dev2">Iacob Ionut</string>
+    <string name="dot_about_dev2_device">Xiaomi Redmi Note 4X</string>
+    <string name="dot_about_dev3">Abhinav Gupta</string>
+    <string name="dot_about_dev3_device">Yu Yuphoria (Lettuce)</string>
+    <string name="dot_about_dev4">Psycho Mods</string>
+    <string name="dot_about_dev4_device">LeEco Le 1s (x3)</string>
+    <string name="dot_about_dev5">Zilberto Junior</string>
+    <string name="dot_about_dev5_device">Moto G 2015</string>
+    <string name="dot_about_dev6">Izaq Kull (iykeDROID™)</string>
+    <string name="dot_about_dev6_device">Motorola Moto E4 (woods)</string>
+    <string name="dot_about_dev7">Dhanush Krishnan</string>
+    <string name="dot_about_dev7_device">OnePlus 3/3T</string> 
+    <string name="dot_about_dev8">Anshuman Mishra</string>
+    <string name="dot_about_dev8_device">Moto G5+ (Potter)</string>
+    <string name="dot_about_dev9">Shamith</string>
+    <string name="dot_about_dev9_device">Xiaomi Redmi Note 3 Pro(kenzo)</string>
+    <string name="dot_about_dev10">ATechnoHazard</string>
+    <string name="dot_about_dev10_device">Moto G5 (Cedric)</string>
+    <string name="dot_about_dev11">Nikesh Kataria</string>
+    <string name="dot_about_dev11_device">Redmi 4X (santoni)</string>
+    <string name="dot_about_dev12">Nikesh Kataria</string>
+    <string name="dot_about_dev12_device">Redmi 4A (Rolex)</string>
+    <string name="dot_about_dev13">Prakhar Srivastava(prakharluv)</string>
+    <string name="dot_about_dev13_device">Asus ZenFone 2 Laser (Z00L)</string>
+    <string name="dot_about_dev15">Bauuuuu</string>
+    <string name="dot_about_dev15_device">Nubia Z9 Max (nx512j)</string>
+    <string name="dot_about_dev16_device">Xiaomi Redmi 1S (armani)</string>
+    <string name="dot_about_dev17">sriram prakhya</string>
+    <string name="dot_about_dev17_device">Lenovo zuk z1(ham)</string>
+    <string name="dot_about_dev18">spector007</string>
+    <string name="dot_about_dev18_device">Lenovo vibe p1 (passion)</string>
+    <string name="dot_about_dev19">miju12</string>
+    <string name="dot_about_dev19_device">Lenovo ZUK Z2 (z2_plus)</string>
+    <string name="dot_about_dev20">Bala</string>
+    <string name="dot_about_dev20_device">Lenovo karate/karatep</string>
+    <string name="dot_about_dev21">Neeraj Thakur [thakurfazer55]</string>
+    <string name="dot_about_dev21_device">YU Yureka (tomato)</string>
+    <string name="dot_about_dev22">XTutorials</string>
+    <string name="dot_about_dev22_device">Huawei P8 Lite (alice)</string>
+    <string name="dot_about_dev23">Maaz Muzammil</string>
+    <string name="dot_about_dev23_device">Yu Yunique (jalebi)</string>	
+    <string name="dot_about_dev24">Kelvin Virani</string>
+    <string name="dot_about_dev24_device">Redmi Note 4g single sim (dior)</string>
+    <string name="dot_about_dev25">nsytechno</string>
+    <string name="dot_about_dev25_device">Redmi 3S (land)</string>
+    <string name="dot_about_dev26">Keerten</string>
+    <string name="dot_about_dev26_device">Athene</string>
+    <string name="dot_about_dev27">Mr.AK</string>
+    <string name="dot_about_dev27_device">Bacon</string>
+    <string name="dot_about_dev28">Rohan Taneja</string>
+    <string name="dot_about_dev28_device">aio_row</string>  
+    <string name="dot_about_dev29">Siddharth Raj</string>  
+    <string name="dot_about_dev29_device">Redmi 2/Prime</string>
+    <string name="dot_about_dev30">Sakil Mondal</string>  
+    <string name="dot_about_dev30_device">Asus Zenfone Max (Z010D)</string>
+    <string name="dot_about_dev31">Aayush Gupta(TheImpulson)</string>  
+    <string name="dot_about_dev31_device">Asus Zenfone 2 Laser/Selfie (Z00T)</string>
+     <string name="dot_about_dev32">Ahmed Rahmy (Mysteryagr)</string>
+    <string name="dot_about_dev32_device">Motorola Moto C (namath)</string>
+     <string name="dot_about_dev33">VenkatVV (venkyholmes)</string>
+    <string name="dot_about_dev33_device">oneplus2</string>
+     <string name="dot_about_dev34">Michele Berretti</string>
+    <string name="dot_about_dev34_device">m2note</string>
+	
+    <!--Something is fishy here for sure-->
+
+<!-- dot OTA -->
+    <string name="dot_ota_title">dotOS OTA</string>
+    <string name="dot_ota_summary">System Updates</string>
+	
+	<!-- dotOS Changelog -->
+    <string name="changelog_dot_title">Changelog</string>
+    <string name="changelog_dot_error">Unable to load changelog</string>
+    <string name="changelog_dot_summary">Check changes in current build</string>
+	
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_mod_version">dotOS version</string>
+    <string name="mod_version_default" translatable="false">v1.2</string>
+
+    <!-- DotExtras -->
+    <!-- Dashboard -->
+    <string name="header_category_custom">ROM Control</string>
+    <string name="dot_settings_title">DotExtras</string>
+    <string name="dot_settings_summary">Align the Dots</string>
+
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+    <!-- Developer options summary -->
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+
+    <!-- Magisk -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
+
+    <!-- Substratum -->
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Customize device theme</string>
+
+    <!-- Kernel Auditor -->
+   <string name="ka_title">Performance</string>
+   <string name="ka_summary">Tweak Kernel</string>
+
+   <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
+    <string name="night_mode_title">QSPanel Style</string>
+    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
+    <string name="night_mode_summary">%s</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_no">Dark QuickSettings</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_yes">White QuickSettings</string>
+    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_auto">Automatic</string>
+    <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Switch between primary and accent colors</string>
+    <string name="theme_title">Color engine</string>
+    <string name="theme_summary">Select different colors for your current theme</string>
+    <string name="theme_accent_color">Accent color</string>
+    <string name="theme_primary_color">Primary/Background color</string>
+    <string name="theme">Theme</string>
+    <string name="oms_enabled">Theme modes unavailable because a Substratum theme overlay is currently installed</string>
+    <string name="red">Torch Red</string>
+    <string name="orange">Vermilion</string>
+    <string name="blue">Lima</string>
+    <string name="green">Pixel Blue</string>
+    <string name="yellow">Supernova</string>
+    <string name="purple">Purple Heat</string>
+    <string name="pink">Rose</string>
+    <string name="dark">Dark</string>
+    <string name="pixel">Dot O</string>
+    <string name="teal">Grey</string>
+    <string name="cyan">Scooter</string>
+    <string name="grey">Teal</string>
+    <string name="default_string">Dot Pixel</string>
+    <string name="theme_force_enabled_title">Force enable theme</string>
+    <string name="theme_force_enabled_summary">Theme will be forcibly enabled nonetheless OMS state</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN is entered\nNote: will only work for 4 digit PIN !</string>
+
+</resources>

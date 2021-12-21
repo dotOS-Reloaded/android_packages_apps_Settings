@@ -39,7 +39,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS versiyası</string>
-  <string name="mod_version_default">Bilinməyən</string>
+  <!--string name="mod_version_default">v1.0</string-->
   <!-- About phone screen, Device model -->
   <string name="device_model">Cihaz modeli</string>
   <!-- About phone screen, Device name -->
@@ -259,4 +259,5 @@
   <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
   <!-- SAR information -->
   <!-- IC Codes -->
+  <!-- Label for settings shortcut: carrier selection -->
 </resources>

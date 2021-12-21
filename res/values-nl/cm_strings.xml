@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Root-instellingen bekijken en beheren</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS-versie</string>
-  <string name="mod_version_default">Onbekend</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model</string>
   <!-- About phone screen, Device name -->
@@ -431,4 +431,6 @@
   <!-- IC Codes -->
   <string name="ic_code_model">Model: %1$s</string>
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Netwerkproviders</string>
 </resources>

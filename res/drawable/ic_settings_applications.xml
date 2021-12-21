@@ -1,25 +1,50 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
+ <!--
+      Copyright (C) 2017 dotOS
+ 
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+ 
+           http://www.apache.org/licenses/LICENSE-2.0
+ 
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+  -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorAccent">
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M5.0,16.0c0.0,3.87 3.13,7.0 7.0,7.0s7.0,-3.13 7.0,-7.0l0.0,-4.0L5.0,12.0l0.0,4.0zM16.12,4.37l2.1,-2.1 -0.82,-0.83 -2.3,2.31C14.16,3.28 13.12,3.0 12.0,3.0s-2.1,0.28 -3.0,0.75L6.6,1.44l-0.8,0.83 2.1,2.1C6.14,5.64 5.0,7.68 5.0,10.0l0.0,1.0l14.0,0.0l0.0,-1.0c0.0,-2.32 -1.14,-4.36 -2.88,-5.63zM9.0,9.0c-0.55,0.0 -1.0,-0.45 -1.0,-1.0s0.45,-1.0 1.0,-1.0 1.0,0.45 1.0,1.0 -0.45,1.0 -1.0,1.0zm6.0,0.0c-0.55,0.0 -1.0,-0.45 -1.0,-1.0s0.45,-1.0 1.0,-1.0 1.0,0.45 1.0,1.0 -0.45,1.0 -1.0,1.0z"/>
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 2.3 C 10.648023074 2.3 13.2 4.85197692596 13.2 8 C 13.2 11.148023074 10.648023074 13.7 7.5 13.7 C 4.35197692596 13.7 1.8 11.148023074 1.8 8 C 1.8 4.85197692596 4.35197692596 2.3 7.5 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 2.3 C 27.148023074 2.3 29.7 4.85197692596 29.7 8 C 29.7 11.148023074 27.148023074 13.7 24 13.7 C 20.851976926 13.7 18.3 11.148023074 18.3 8 C 18.3 4.85197692596 20.851976926 2.3 24 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 2.3 C 43.648023074 2.3 46.2 4.85197692596 46.2 8 C 46.2 11.148023074 43.648023074 13.7 40.5 13.7 C 37.351976926 13.7 34.8 11.148023074 34.8 8 C 34.8 4.85197692596 37.351976926 2.3 40.5 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 18.3 C 43.648023074 18.3 46.2 20.851976926 46.2 24 C 46.2 27.148023074 43.648023074 29.7 40.5 29.7 C 37.351976926 29.7 34.8 27.148023074 34.8 24 C 34.8 20.851976926 37.351976926 18.3 40.5 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 18.3 C 27.148023074 18.3 29.7 20.851976926 29.7 24 C 29.7 27.148023074 27.148023074 29.7 24 29.7 C 20.851976926 29.7 18.3 27.148023074 18.3 24 C 18.3 20.851976926 20.851976926 18.3 24 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 18.3 C 10.648023074 18.3 13.2 20.851976926 13.2 24 C 13.2 27.148023074 10.648023074 29.7 7.5 29.7 C 4.35197692596 29.7 1.8 27.148023074 1.8 24 C 1.8 20.851976926 4.35197692596 18.3 7.5 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 34.3 C 10.648023074 34.3 13.2 36.851976926 13.2 40 C 13.2 43.148023074 10.648023074 45.7 7.5 45.7 C 4.35197692596 45.7 1.8 43.148023074 1.8 40 C 1.8 36.851976926 4.35197692596 34.3 7.5 34.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 34.3 C 27.148023074 34.3 29.7 36.851976926 29.7 40 C 29.7 43.148023074 27.148023074 45.7 24 45.7 C 20.851976926 45.7 18.3 43.148023074 18.3 40 C 18.3 36.851976926 20.851976926 34.3 24 34.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 34.3 C 43.648023074 34.3 46.2 36.851976926 46.2 40 C 46.2 43.148023074 43.648023074 45.7 40.5 45.7 C 37.351976926 45.7 34.8 43.148023074 34.8 40 C 34.8 36.851976926 37.351976926 34.3 40.5 34.3 Z" />
 </vector>

@@ -333,7 +333,7 @@
     <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
 
     <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
     </style>
 
     <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Subhead" />

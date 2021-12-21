@@ -39,7 +39,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS versioon</string>
-  <string name="mod_version_default">Teadmata</string>
+  <!--string name="mod_version_default">v1.0</string-->
   <!-- About phone screen, Device model -->
   <string name="device_model">Seadme mudel</string>
   <!-- About phone screen, Device name -->
@@ -297,4 +297,5 @@
   <!-- IC Codes -->
   <string name="ic_code_model">Mudel: %1$s</string>
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
 </resources>

@@ -40,7 +40,7 @@
   <string name="root_appops_summary">查看和控制 root 規則</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS 版本</string>
-  <string name="mod_version_default">未知</string>
+  <!--string name="mod_version_default">v1.1</string-->
   <!-- About phone screen, Device model -->
   <string name="device_model">裝置型號</string>
   <!-- About phone screen, Device name -->
@@ -430,4 +430,6 @@
   <!-- IC Codes -->
   <string name="ic_code_model">型號：%1$s</string>
   <string name="ic_code_full">IC：%1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">網路業者</string>
 </resources>

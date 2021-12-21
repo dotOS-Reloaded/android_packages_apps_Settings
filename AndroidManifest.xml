@@ -86,6 +86,7 @@
     <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
     <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS" />
 
     <uses-permission android:name="cyanogenmod.permission.PROTECTED_APP" />
     <uses-permission android:name="cyanogenmod.permission.WRITE_SETTINGS" />
@@ -93,6 +94,7 @@
 
     <application android:label="@string/settings_label"
             android:icon="@mipmap/ic_launcher_settings"
+			android:roundIcon="@mipmap/ic_launcher_settings_round"
             android:taskAffinity=""
             android:theme="@style/Theme.Settings"
             android:hardwareAccelerated="true"
@@ -133,8 +135,16 @@
 
         <activity android:name=".Settings$WirelessSettings"
             android:label="@string/header_category_wireless_networks">
-            <intent-filter android:priority="4">
+            <intent-filter android:priority="5">
                 <action android:name="com.android.settings.category.wireless" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Settings$CustomSettings"
+            android:label="@string/header_category_custom">
+            <intent-filter android:priority="4">
+                <action android:name="com.android.settings.category.custom" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -2496,11 +2506,11 @@
                 android:label="@string/crypt_keeper_encrypt_title">
             <intent-filter android:priority="1">
                 <action android:name="android.app.action.START_ENCRYPTION" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.CryptKeeperSettings" />
@@ -2765,6 +2775,66 @@
                 android:value="true" />
         </activity>
 
+        <activity android:name="Settings$MagiskActivity"
+            android:label="@string/magisk_title"
+            android:icon="@drawable/ic_settings_magisk"
+            android:taskAffinity="">
+            <intent-filter android:priority="4">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.MagiskManager" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/magisk_summary" />
+        </activity>
+        
+       <activity android:name="Settings$SubstratumActivity"
+            android:label="@string/substratum_title"
+            android:icon="@drawable/ic_settings_substratum"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="3">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.Substratum" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/substratum_summary" />
+        </activity>
+
+       <activity android:name="Settings$KActivity"
+                android:label="@string/ka_title"
+                 android:icon="@drawable/dot_performance_icon"
+                 android:taskAffinity="" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.DEFAULT" />
+                 <category android:name="com.android.settings.SHORTCUT" />
+             </intent-filter>
+             <intent-filter android:priority="0">
+                 <action android:name="com.android.settings.action.SETTINGS" />
+             </intent-filter>
+             <meta-data android:name="com.android.settings.category"
+                 android:value="com.android.settings.category.system" />
+             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                 android:value="com.android.settings.ka" />
+         </activity>
+
         <!-- Show apps for which application-level notification settings are applicable -->
         <activity android:name="Settings$NotificationAppListActivity"
                 android:label="@string/app_notifications_title"
@@ -2794,6 +2864,33 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.AppNotificationSettings" />
+        </activity>
+
+	<activity android:name="Settings$dotsettingsStart"
+            android:label="@string/dot_settings_title"
+            android:icon="@drawable/ic_settings_dot"
+            android:taskAffinity="">
+	    <intent-filter android:priority="1">
+                <action android:name="com.android.settings.dot.dotsettingsStart" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="4">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.dot.dotsettingsStart" />
+	    <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/dot_settings_summary" />
         </activity>
 
         <!-- Show Manual (from settings item) -->
@@ -3199,6 +3296,16 @@
             <intent-filter>
                 <action android:name=".applications.LockPatternActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CarrierSelection"
+            android:label="@string/shortcut_carrier_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
         </activity>
 
